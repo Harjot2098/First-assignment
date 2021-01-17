@@ -1,0 +1,112 @@
+*{
+	box-sizing: border-box;
+}
+@media screen and (max-width:1119px  ){	
+nav{
+   width: 650px;
+}
+nav ul{
+	padding-left: 0px;
+}
+nav ul li{
+	color: white;
+}
+#social ul{
+	margin-left: 30px;
+}
+
+@media screen and (max-width:1066px){
+	
+	#social{
+		width: 170px;
+	}
+	#social ul{
+	padding-left: 0px;
+	margin-left: 6px;
+    }
+    #social ul li{
+	padding-left: 20px;
+    }
+
+@media screen and (max-width:959px){
+	
+#header{
+	 background-color: black;
+}
+#header label{
+	height: 20px;
+	display: block;
+	color: white;
+}
+#header label:hover{
+     cursor: pointer;
+}
+
+nav{
+	float: left;
+	display: flex;
+    width: 300px;
+    height: 300px;
+}
+
+nav ul{
+	flex-direction: column;
+}
+
+nav ul li{	
+	display: none;
+}
+nav ul:hover li{
+	display: block;
+}
+#logo{
+	margin: auto;
+}
+
+
+@media screen and (max-width:726px){
+	
+nav{
+	width: 250px;
+}
+
+@media screen and (max-width:647px){
+	
+nav{
+	width: 220px;
+}
+
+@media screen and (max-width:583px){
+	
+nav{
+	width: 170px;
+}
+
+
+@media screen and (max-width:530px){
+	
+nav{
+	width: 130px;
+}
+@media screen and (max-width:456px){
+	
+nav{
+	width: 90px;
+}
+
+@media screen and (max-width:418px){
+	
+nav{
+	width: 70px;
+}
+
+@media screen and (max-width:395px){
+	
+nav{
+	width: 70px;
+}
+#social ul{
+  margin-left: 4px;
+}
+
+}
